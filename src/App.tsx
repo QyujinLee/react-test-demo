@@ -10,9 +10,11 @@ function App() {
       <main className="main_wrap">
         <BrowserRouter>
           <NavBar />
-          <Routes>
-            <Route path="/counter" element={<Counter />} />
-          </Routes>
+          <div className="page_wrap">
+            <Routes>
+              <Route path="/counter" element={<Counter />} />
+            </Routes>
+          </div>
         </BrowserRouter>
       </main>
     </div>

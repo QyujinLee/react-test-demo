@@ -1,0 +1,31 @@
+.counter_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controller_wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin: 50px 0;
+}
+
+.counter_wrap button {
+  border: none;
+  box-shadow: 1px 1px 0.3em gray;
+  cursor: pointer;
+}
+
+.controller {
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+}
+
+.power {
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  background-color: cornflowerblue;
+}
