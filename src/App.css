@@ -19,6 +19,13 @@
 .navbar ul {
   list-style: none;
   padding: 0;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar li {
+  margin: 10px 0px;
 }
 
 .navbar ul li a {
